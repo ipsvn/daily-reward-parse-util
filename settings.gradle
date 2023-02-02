@@ -1,0 +1,2 @@
+rootProject.name = 'daily-reward-parse-util'
+include 'example'
