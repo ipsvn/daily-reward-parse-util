@@ -2,6 +2,21 @@
 
 Parses the Hypixel daily reward website into a basic Java API
 
+## Download
+Releases are available on my maven repository at [m2.svn.lol](https://m2.svn.lol/).
+
+**Gradle**
+```
+repositories {
+    maven {
+        url = uri("https://m2.svn.lol/releases")
+    }
+}
+dependencies {
+    implementation("lol.svn:daily-reward-parse-util:1.0")
+}
+```
+
 ## Examples
 
 ### Use the library to take the ID, get the options and claim the first option
