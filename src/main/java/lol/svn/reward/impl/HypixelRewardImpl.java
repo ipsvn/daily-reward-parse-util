@@ -136,7 +136,7 @@ public class HypixelRewardImpl implements HypixelReward {
                 throw new RuntimeException(e);
             }
 
-        });
+        }, executor);
     }
 
     @Override
