@@ -4,7 +4,7 @@ plugins {
 }
 
 project.group   = "lol.svn"
-project.version = "1.0"
+project.version = "1.0.1"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_11
