@@ -13,7 +13,7 @@ repositories {
     }
 }
 dependencies {
-    implementation("lol.svn:daily-reward-parse-util:1.0")
+    implementation("lol.svn:daily-reward-parse-util:1.0.1")
 }
 ```
 
